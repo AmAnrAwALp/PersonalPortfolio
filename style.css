@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    cursor: url("cursor.png"), auto;
+    background-color: rgb(2, 2, 56);
+
+    color: white;
+    font-family: 'poppins';
+    
+}
+
+
+nav {   
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 95px;
+    background-color: rgb(48, 12, 73);
+
+}
+nav:hover{
+    box-shadow: 10px ;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+
+    color: gold;
+    font-size: 1rem;
+}
+
+.left {
+    font-size: 1.7rem;
+
+}
+
+.left:hover {
+    transition: all ease-in-out 1s;
+    font-size: 1.71rem;
+    color: gold;
+    filter: drop-shadow(10px 20px 10px rgb(237, 237, 236));
+
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 110px 0px;
+
+}
+
+.leftsection img {
+
+    filter: grayscale(100%);
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    
+
+}
+
+.leftsection img:hover {
+
+    filter: grayscale(0%);
+    transition: all ease 1s;
+    height: 170px;
+    width: 170px;
+    border-radius: 10%;
+    scale: 1.5;
+}
+
+
+.leftsection:hover {
+
+    text-shadow: 0px 0px 5px gold;
+    filter: drop-shadow(5px 10px 15px gold);
+
+}
+
+.first>div {
+    width: 30%;
+
+}
+
+.leftsection {
+    transition: all ease-in-out 1s;
+    font-size: 2rem;
+    margin: 10px 0px;
+    background-image: url(beach.jpeg);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.rightsection img {
+    width: 500px;
+    height: auto;
+
+}
+
+.rightsection img:hover {
+    width: 510px;
+    height: auto;
+    transition: all ease-in-out 1s;
+    filter: drop-shadow(11px 17px 25px rgb(198, 187, 65));
+
+}
+
+
+#element {
+    color: gold;
+}
+
+.secondsection {
+    font-family: 'poppins';
+    max-width: 80vw;
+    margin: auto;
+}
+.box{
+    margin: 40px 80xp;
+    width: 76vw;
+    /* padding: 10px; */
+    height: 3px;
+    background-color: white;
+} 
